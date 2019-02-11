@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+    background-color: #f2fffc;
+    line-height: 1.5;
+}
+
+h1,
+h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+main h1 {
+    font-size: 60px;
+    background-color: #851944;
+    color: #fafafa;
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+    border-bottom: 10px solid #000;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {    
+    margin: 20px 0;
+    text-align: justify;
+}
+
+blockquote {
+    background-color: #d9e5e3;
+    border: 10px solid #c2ccca;
+    width: 250px;
+    margin: 20px 40px;
+}
+
+blockquote,
+aside,
+footer {
+    padding: 20px;
+}
+
+aside {
+    background-color: #3c1d3d;
+    color: #f2fffc;
+    text-align: center;
+}
+
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+    color: #f2fffc;
+}
+
+nav a {
+    color: #f2fffc; 
+}
+
+main a {
+    font-family: "Open Sans Condensed" , sans-serif;
+    color: #851944;
+}
+
+aside a {
+    color: inherit;
+    text-decoration: none;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside li {
+    display: inline-block;
+}
+
+main div {
+    width: 720px;
+    margin: 30px auto;
+}
+
+ul {
+    list-style: none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
